@@ -40,7 +40,7 @@ body{
 /* navbar css ends here  */
 
 /* here content css starts here  */
-.money-content{
+.newmoney-content{
     height: 100vh;
     background-color: #355070;
     color: #ffffff;
@@ -50,13 +50,13 @@ body{
     margin-bottom: 1vh;
 }
 
-.money-img{
+.newmoney-img{
     height: 15vh;
     width: 100%;
 }
 
 @media only screen and (max-width: 766px) {
-    .money-img {
+    .newmoney-img {
       display: none;
     }
 }
