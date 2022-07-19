@@ -5,7 +5,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #6d597a;
+    background-color: #1c8b93;
 }
 
 /* splash screen css starts here  */
@@ -24,8 +24,8 @@ body{
 }
 
 .navbar-brand{
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 1.5rem;
+    font-family: 'Calibri', cursive;
+    font-size: 2rem;
     color: #5f6368!important;
 }
 
@@ -40,7 +40,7 @@ body{
 /* navbar css ends here  */
 
 /* here content css starts here  */
-.getmoney-content{
+.transfer-content{
     height: 100vh;
     background-color: #355070;
     color: #ffffff;
@@ -51,24 +51,24 @@ body{
     margin-top: 1vh;
 }
 
-.getmoney-img{
-    height: 70vh;
-    width: 90%;
+.transfer{
+    height: 73%;
+    width: 73%;
 }
 
 @media only screen and (max-width: 766px) {
-    .getmoney-img {
+    .transfer {
       display: none;
     }
 }
 
 .get-started{
     border-radius: 0.5rem;
-    padding: 1rem 2rem;
-    font-size: 162%;
-    background-color: #fff;
+    padding: 1rem 1rem;
+    font-size: 150%;
+    background-color: #f3f1f1;
     color: #039be5!important;
-    transition: 0.3s;
+    transition: 0.9s;
 }
 
 .get-started:hover{
